@@ -1,0 +1,10 @@
+body{
+  background-color: black; /*la pagina de fondo será negra*/
+  color: white; /*el texto de la página será blanco*/
+  }
+  h1{
+    font-family:verdana;
+  }
+  h2{
+    font-family:verdana;
+  }
