@@ -1,0 +1,19 @@
+body{
+  background-color: black;
+  color: white !important;
+  font-family: arial;
+}
+body{
+  color:red;
+}
+body p{ /* ESTA ES UNA DECALRACION MAS ESPECIFICA ENTONCES TIENE PRIORIDAD*/
+  color:yellow;
+}
+#uno{
+  margin-left: 40px;
+  margin-top: 50px;
+}
+#dos{
+  font-family: helvetica;
+  font-size: 30px;
+}
