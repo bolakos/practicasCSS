@@ -1,0 +1,35 @@
+body{
+  background-color: gray;
+}
+
+img{
+  border-radius: 20px;
+}
+
+footer
+{
+  margin-top: 50px;
+}
+
+#indice{
+  font-style: arial;
+  font-size: 20px;
+}
+
+#idiomas{
+  font-family: Helvetica;
+  color: yellow;
+  font-size: 20px;
+}
+
+#encabezado{
+  display: block;
+  margin: 0 auto;
+}
+
+.itemindice{
+  list-style-type: upper-roman;
+}
+.enlace{
+  color: red;
+}
