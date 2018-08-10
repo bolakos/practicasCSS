@@ -1,0 +1,16 @@
+body{
+  background-color: black;
+}
+p{
+  color: blue !important;
+}
+a{
+  color: white;
+}
+#contenedor{
+  margin-top: 60px;
+  margin-left: 50px;
+}
+body p{
+  color: green;
+}
