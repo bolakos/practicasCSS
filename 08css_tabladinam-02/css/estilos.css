@@ -1,0 +1,74 @@
+body{
+  margin: 20px;
+  font-family: verdana;
+}
+#menu-principal{
+  padding: 10px 0px;
+}
+
+a{
+  color: green;
+  text-decoration: none;
+}
+
+a:hover{
+  color: purple;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: red;
+}
+
+/*el siguiente código coloca la rayita vertical al menú*/
+#menu-principal a + a::before{
+content:"| ";
+color:black;
+}
+
+/*el siguiente código, solo selecciona un tipo de borde*/
+table{
+  border-collapse: collapse;
+}
+
+.bordes{
+  border: 4px solid green;
+  border-collapse: collapse;
+  padding: 200px;
+}
+
+/*ESTE SELECTOR SI ME DESCRESTO ES PARA AÑADIR EL BORDE Y PADDIN A TABLA TH Y TD*/
+table, th, td {
+border: solid 1px black;
+padding: 10px;
+}
+
+/*selector avanzado para los pares*/
+tbody tr:nth-child(even){
+  background-color: #ccc;
+}
+/*selector avanzado para los impares*/
+tbody tr:nth-child(odd){
+  background-color: #ccf;
+}
+
+/*efecto hover para el selector avanzado para los pares*/
+tbody tr:nth-child(even):hover{
+  background-color: #ddd;
+}
+
+/*efecto hover para el selector avanzado para los impares*/
+tbody tr:nth-child(odd):hover{
+  background-color: #ddd;
+}
+
+.sombra{
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6)
+}
+
+footer{
+  margin-top: 20px;
+  border-top: solid 1px black;
+  padding-top: 10px;
+  text-align: center;
+}
