@@ -1,0 +1,38 @@
+@@font-face {
+	font-family: "lato";
+	src: url('fuentes/lato-Hairline.ttf');
+}
+body{
+	margin: 20px;
+	font-family: "lora";
+}
+
+menu-principal h1{
+	font-family: "lato-hairline";
+}
+
+.resaltado{
+	background-color: yellow;
+	color: black;
+}
+
+#menu-principal{
+	padding: 10px 0px;
+	font-style: italic;
+}
+
+footer{
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1.titulo{
+	background-color: aliceblue;
+	text-align: center;
+	padding: 10px;
+}
+
+.titulo{
+	font-variant: small-caps;
+}
